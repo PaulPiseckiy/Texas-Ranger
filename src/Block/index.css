@@ -1,0 +1,30 @@
+.content:last-child {
+  margin-bottom: 100px;
+}
+
+.content:hover {
+  box-shadow: 0 0 10px 1px lightgreen;
+  border-color: lightgreen;
+}
+
+.content > button {
+  font-size: 15px; 
+  background-color: white;
+  border: 1px solid lightgrey;
+  transition: all 0.15s ease-in-out;
+}
+
+.content > button:hover {
+  background-color: lightgreen;
+  border-color: lightgreen;
+}
+
+.content-close {
+  height: 30px;
+  width: 60px;
+}
+
+.content-tofav {
+  height: 30px;
+  width: 60px;
+}

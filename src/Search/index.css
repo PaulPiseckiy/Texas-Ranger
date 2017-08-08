@@ -1,0 +1,23 @@
+.search-form {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px; 
+}
+
+label {
+  margin-right: 5px;
+}
+
+.search-form input {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  width: 20%;
+  border-bottom: 1px solid #DDDDDD;
+  transition: all 0.30s ease-in-out;
+}
+
+.search-form input:focus {
+  box-shadow: 0 7px 10px -5px lightgreen;
+  border-bottom-color: lightgreen;
+}
